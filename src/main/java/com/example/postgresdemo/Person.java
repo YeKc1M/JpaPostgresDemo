@@ -18,6 +18,8 @@ public class Person {
     @NotNull
     private String name;
 
+    private String password;
+
     public Person(int id, String name){
         this.setId(id);
         this.setName(name);
